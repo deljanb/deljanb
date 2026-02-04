@@ -35,7 +35,7 @@ I build the infrastructure that connects international student-athletes with Ame
 
 **⚙️ Recruiting Automation** — n8n workflows integrating Zoho CRM, WhatsApp (WhAPI), and AI-powered follow-up systems to automate athlete-coach communications at scale. 102-automation operations roadmap mapping every business process to automation specs.
 
-**🚇 MBTA Monitor** — Real-time commuter rail notification system. Cloud Functions poll the MBTA API every 30 seconds, detect delays, match trains to user alerts, and deliver via Telegram, SMS, and Email. 368 tests across unit and integration suites.
+**🚇 MBTA Alerts** — Real-time commuter rail notification system. Cloud Functions poll the MBTA API every 30 seconds, detect delays, match trains to user alerts, and deliver via Telegram, SMS, and Email. 368 tests across unit and integration suites.
 
 ---
 
