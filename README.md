@@ -55,8 +55,6 @@ I build the infrastructure that connects international student-athletes with Ame
 
 ---
 
-*"Sports changed my life, and now I'm building the tools to change others'."*
-
 <details>
 <summary>Random Facts</summary>
 
