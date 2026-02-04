@@ -41,7 +41,9 @@ I build the infrastructure that connects international student-athletes with Ame
 
 ### Background
 
-🎓 MBA + MS in Agile Project Management — Northeastern University
+🎓 MS in Agile Project Management — Northeastern University
+
+🎓 MBA — Manhattan University
 
 🏢 International Student & Scholar Advisor — Northeastern University
 
