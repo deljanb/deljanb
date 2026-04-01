@@ -1,6 +1,6 @@
 # Hey, I'm Deljan
 
-I'm a builder. For the past 10 years I've been running [USA College Sport](https://usacollegesport.com) — a platform I bootstrapped from scratch that connects international student-athletes with American universities. Over 500 athletes placed, $80M+ in scholarships secured, 300+ university partnerships. I wrote most of the code, built the CRM, hired and managed the team, and figured out go-to-market across 5 European countries.
+I'm a builder. For the past 10 years I've been running [USA College Sport](https://usacollegesport.com) — a platform I bootstrapped from scratch that connects international student-athletes with American universities. Over 500 athletes placed, $80M+ in scholarships secured, 300+ university partnerships. I wrote some of the code, built the CRM, hired and managed the team, and figured out go-to-market across 5 European countries.
 
 These days I'm deep into AI automation. I've built production systems that run autonomously — scraping athlete data from 6 international databases, processing highlight videos with ffmpeg on GCP, orchestrating multi-model AI workflows, and automating recruiting outreach across Instagram and WhatsApp. Everything runs on AWS EC2, Firebase, and a self-hosted n8n instance, managed by PM2 and systemd daemons.
 
