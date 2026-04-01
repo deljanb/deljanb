@@ -18,8 +18,6 @@ I'm currently transitioning into dedicated technical roles in GTM Engineering, R
 
 **Video Processing Pipeline** — Autonomous system on GCP that downloads game footage, clips individual plays, applies circle overlays and freeze-frame effects via ffmpeg, generates thumbnails, and uploads to S3. Runs 24/7 with proxy rotation and auto-recovery.
 
-**PAL MCP Server** — Multi-model AI orchestration platform (v9.8.2). 50+ models across 7 providers (Gemini, OpenAI, Grok, etc.), 18 specialized tools, conversation memory, Docker deployment. Built in Python.
-
 **n8n Automation Platform** — Self-hosted on Docker with 6+ production workflows, plus an AI error fixer that spawns Claude Code to auto-diagnose and repair workflow failures. Published 7 Claude Code skills for n8n development.
 
 **Zoho CRM Suite** — 20+ custom Deluge functions powering the entire recruiting pipeline. Contracts, notifications, cross-system webhooks, automated tagging. 607-page scraped documentation library for AI-assisted development.
