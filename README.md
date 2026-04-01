@@ -1,64 +1,51 @@
-# Hey, I'm Deljan 👋
+# Hey, I'm Deljan
 
-**Sports Tech Entrepreneur** from Albania 🇦🇱, through Italy 🇮🇹, now building in the U.S. 🇺🇸
+I'm a builder. For the past 10 years I've been running [USA College Sport](https://usacollegesport.com) — a platform I bootstrapped from scratch that connects international student-athletes with American universities. Over 500 athletes placed, $80M+ in scholarships secured, 300+ university partnerships. I wrote most of the code, built the CRM, hired and managed the team, and figured out go-to-market across 5 European countries.
 
-I build the infrastructure that connects international student-athletes with American universities. Since 2015, **500+ athletes placed**, **$20M+ in scholarships secured**, across **300+ institutions** — and I write the code that makes it scale.
+These days I'm deep into AI automation. I've built production systems that run autonomously — scraping athlete data from 6 international databases, processing highlight videos with ffmpeg on GCP, orchestrating multi-model AI workflows, and automating recruiting outreach across Instagram and WhatsApp. Everything runs on AWS EC2, Firebase, and a self-hosted n8n instance, managed by PM2 and systemd daemons.
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
+I'm currently transitioning into dedicated technical roles in GTM Engineering, RevOps, and Product Management — taking 10 years of building full-stack products and packaging it for tech companies.
 
 ---
 
-### Projects
+### What I've Built
 
-| Project | What It Does |
-|---------|-------------|
-| **[USA College Sport](https://usacollegesport.com)** | The leading international agency for athletic scholarships at American universities |
-| **[CircleOn.me](https://circleon.me)** | Sports video highlighting platform — circle annotations to identify players in game footage |
-| **[Recruit11](https://recruit11.com)** | College soccer recruiting — video breakdowns, coach messaging, positional filtering |
-| **[MBTA Alerts](https://mbta-alerts.com)** | Real-time transit delay alerts for Boston's commuter rail |
+**[USA College Sport](https://usacollegesport.com)** — Europe's leading recruiting platform for athletic scholarships in the US. JavaScript, Vue.js, Zoho CRM, WordPress, MySQL. 47% profit margins, 32% annual growth.
+
+**[MBTA Delay Alerts](https://mbta-alerts.com)** — Real-time commuter rail notifications for Boston. Firebase Cloud Functions poll the MBTA API every 30 seconds, match delays to user alerts, deliver via Telegram/SMS/Email. 18 Cloud Functions, 368 tests, full admin dashboard.
+
+**Athlete Data Pipeline** — 6 production scrapers on AWS EC2 collecting data from World Athletics, Transfermarkt, Volleybox, FITP, FIDAL, and Tuttocampo. Nationality-based routing to Google Sheets, Instagram handle discovery via social graph analysis, 11,000+ verified athlete profiles.
+
+**Video Processing Pipeline** — Autonomous system on GCP that downloads game footage, clips individual plays, applies circle overlays and freeze-frame effects via ffmpeg, generates thumbnails, and uploads to S3. Runs 24/7 with proxy rotation and auto-recovery.
+
+**PAL MCP Server** — Multi-model AI orchestration platform (v9.8.2). 50+ models across 7 providers (Gemini, OpenAI, Grok, etc.), 18 specialized tools, conversation memory, Docker deployment. Built in Python.
+
+**n8n Automation Platform** — Self-hosted on Docker with 6+ production workflows, plus an AI error fixer that spawns Claude Code to auto-diagnose and repair workflow failures. Published 7 Claude Code skills for n8n development.
+
+**Zoho CRM Suite** — 20+ custom Deluge functions powering the entire recruiting pipeline. Contracts, notifications, cross-system webhooks, automated tagging. 607-page scraped documentation library for AI-assisted development.
 
 ---
 
-### What I Build
+### Tech I Work With
 
-**🎬 Video Processing Pipeline** — Custom system that powers highlight reels for USA College Sport. Downloads game footage, clips to tagged timestamps, applies freeze-frame effects and circle/logo overlays via ffmpeg, generates thumbnails, and uploads to S3. Processes hundreds of clips autonomously into coach-ready highlight videos.
+**Languages:** JavaScript, Node.js, Python, TypeScript, PHP, SQL, PowerShell, Vue.js
 
-**🏃 Athlete Data Pipeline** — Production scraping infrastructure collecting athlete data from 6 major sports platforms (World Athletics, Transfermarkt, Volleybox, FITP, FIDAL, Instagram). Handles 11,000+ athletes with retry logic, anti-bot evasion, and exponential backoff. Runs on EC2 with PM2.
+**AI & Automation:** Claude API, OpenAI, Gemini, n8n, Zoho Deluge, Puppeteer, MCP servers, prompt engineering
 
-**⚙️ Recruiting Automation** — n8n workflows integrating Zoho CRM, WhatsApp (WhAPI), and AI-powered follow-up systems to automate athlete-coach communications at scale. 102-automation operations roadmap mapping every business process to automation specs.
+**Infrastructure:** AWS (EC2, RDS, S3), GCP, Firebase, Docker, PM2, systemd, GitHub Actions
 
-**🚇 MBTA Alerts** — Real-time commuter rail notification system. Cloud Functions poll the MBTA API every 30 seconds, detect delays, match trains to user alerts, and deliver via Telegram, SMS, and Email. 368 tests across unit and integration suites.
+**Data:** MySQL, Firestore, PostgreSQL, Google Sheets API, web scraping (Puppeteer, Cheerio)
+
+**CRM & Tools:** Zoho CRM, Jira, Asana, Airtable, WordPress, Stripe
 
 ---
 
 ### Background
 
-🎓 MS in Agile Project Management — Northeastern University
-
-🎓 MBA — Manhattan University
-
-🏢 International Student & Scholar Advisor — Northeastern University
-
-📺 Ex-Product Marketing Manager — Wyscout (during acquisition by Hudl)
-
-⚽ Founded USA College Sport in 2015 — bootstrapped to market leader
-
-🌍 Multilingual — English, Italian, Spanish, Albanian
-
----
-
-<details>
-<summary>Random Facts</summary>
-
-- Based in the Boston area
-- New dad navigating parenthood and startups simultaneously
-
-</details>
+- **Northeastern University** — Graduate Certificate in Agile Project Management (4.0 GPA)
+- **Manhattan College** — MBA
+- **St. Thomas University** — BBA
+- Currently also an International Student & Scholar Advisor at Northeastern
+- Previously Product Marketing Manager at Wyscout (acquired by Hudl for $30M+)
+- Speak English, Italian, Spanish, and Albanian
+- Based in Boston
